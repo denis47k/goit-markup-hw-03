@@ -1,0 +1,44 @@
+:root {
+  --background-color: #ffffff;
+  --text-color: #626262;
+  --primary-text-style: 'Playfair Display', serif;
+}
+
+body {
+  font-family: var(--primary-text-style);
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+.link-navigetion a {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #626262;
+}
+
+.link-navigetion a:hover,
+.link-navigetion a:focus {
+  color: #03a9f3;
+}
+
+.categories {
+  font-family: 'ubuntu', sans-serif;
+  color: #b4ad9e;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.titel {
+  font-size: 30px;
+}
+
+.text {
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.button {
+  font-size: 20px;
+  cursor: pointer;
+  font-family: 'Playfair Display', serif;
+}
